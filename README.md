@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux — Live Football Intelligence Terminal">
+  <img src="./assets/cover/gf-terminal.png" width="100%" alt="GoalFlux — Live Football Intelligence Terminal">
 </p>
 
 <h1 align="center">GoalFlux</h1>

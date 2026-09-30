@@ -1,7 +1,7 @@
 # GoalFlux — Live Football Intelligence Terminal
 
 <p align="center">
-  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux — Live Football Intelligence Terminal">
+  <img src="./assets/cover/gf-terminal.png" width="100%" alt="GoalFlux — Live Football Intelligence Terminal">
 </p>
 
 > English-only readme. For the bilingual version see [README.md](./README.md).
