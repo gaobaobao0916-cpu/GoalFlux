@@ -1,12 +1,17 @@
 <p align="center">
-  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux">
+  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux — Live Football Intelligence Engine">
 </p>
 
-<h1 align="center">GOALFLUX</h1>
+<h1 align="center">GoalFlux</h1>
 
 <p align="center">
-  Real-Time Football Probability &amp; Asian Total Analytics<br>
-  实时足球进球概率与亚洲大小球分析系统
+  <b>Live Football Intelligence Engine</b><br/>
+  实时足球智能引擎
+</p>
+
+<p align="center">
+  Real-time Data Fusion&nbsp;+&nbsp;AI-driven Match Observation Framework<br/>
+  实时数据融合 · AI 驱动比赛观察框架
 </p>
 
 <p align="center">
@@ -14,10 +19,10 @@
 </p>
 
 <p align="center">
-  <img alt="Status" src="https://img.shields.io/badge/Status-Research%20%2F%20Watch--Only-blue">
-  <img alt="FT" src="https://img.shields.io/badge/FT-Enabled-success">
-  <img alt="HT" src="https://img.shields.io/badge/HT-Enabled-success">
-  <img alt="Settlement" src="https://img.shields.io/badge/Settlement%20Engine-Active-success">
+  <img alt="Status" src="https://img.shields.io/badge/Status-Research%20%2F%20Intelligence%20Framework-blue">
+  <img alt="FT" src="https://img.shields.io/badge/FT%20Pipeline-Enabled-success">
+  <img alt="HT" src="https://img.shields.io/badge/HT%20Pipeline-Enabled-success">
+  <img alt="Real-time" src="https://img.shields.io/badge/Real--time-Fusion%20Engine-success">
   <img alt="Official Alert" src="https://img.shields.io/badge/Official%20Alert-Disabled-lightgrey">
   <img alt="Edge" src="https://img.shields.io/badge/Proven%20Edge-Not%20Claimed-red">
 </p>
@@ -26,9 +31,10 @@
 
 ## 目录 / Table of Contents
 
-- [项目介绍 / Introduction](#项目介绍--introduction)
+- [项目定位 / Positioning](#项目定位--positioning)
 - [核心能力 / Key Capabilities](#核心能力--key-capabilities)
-- [系统架构 / Architecture](#系统架构--architecture)
+- [系统架构 / System Architecture](#系统架构--system-architecture)
+- [核心模块 / Core Modules](#核心模块--core-modules)
 - [剩余进球引擎 / Remaining Goals Engine](#剩余进球引擎--remaining-goals-engine)
 - [Asian Total 五态结算 / Settlement](#asian-total-五态结算--settlement)
 - [概率语义 / Probability Semantics](#概率语义--probability-semantics)
@@ -46,23 +52,41 @@
 
 ---
 
-## 项目介绍 / Introduction
+## 项目定位 / Positioning
 
 **中文**
 
-GoalFlux 是一个面向实时足球比赛的概率分析与 Asian Total 结算研究系统。
+GoalFlux 是一个面向实时足球场景的**多源数据融合与智能分析框架**。
 
 系统将实时比赛状态、亚洲大小球市场、剩余进球分布与五态结算模型组织为统一数据链，为 FT（全场）/ HT（半场）场景提供 WATCH_ONLY 人工观察界面。
 
-GoalFlux 当前定位为**研究与实时分析工具**。系统不会将未经验证的概率差异包装成"已证明优势"，正式自动化信号保持关闭。
+GoalFlux 参考现代智能数据系统中的实时流处理、特征工程和概率分析方法，采用类似先进实时分析平台的系统设计理念，构建面向复杂动态环境的数据驱动研究框架。
+
+> GoalFlux 当前定位为 **Research / Intelligence Framework**。
+> 系统不会将未经验证的概率差异包装成"已证明优势"，正式自动化信号保持关闭。
 
 **English**
 
-GoalFlux is a real-time football probability analytics system focused on Asian Total markets, remaining-goals modelling, and settlement-aware analysis.
+GoalFlux is a **multi-source data fusion and intelligent analysis framework** for real-time football scenarios.
 
-It combines live match state, market snapshots, remaining-goals distributions, and five-state Asian Total settlement probabilities into a unified FT/HT WATCH_ONLY workflow.
+It combines live match state, market snapshots, remaining-goals distributions, and five-state settlement probabilities into a unified FT/HT WATCH_ONLY workflow.
 
-GoalFlux is currently positioned as a **research and real-time observation platform**. Unproven predictive differences are not presented as validated market edge, and official automated signals remain disabled.
+GoalFlux references real-time stream processing, feature engineering, and probabilistic modelling methods from modern intelligent data systems, adopting design principles similar to advanced real-time analytics platforms, providing a data-driven research framework for complex dynamic environments.
+
+> GoalFlux is positioned as a **Research / Intelligence Framework**.
+> Unproven predictive differences are not presented as validated market edge, and official automated signals remain disabled.
+
+### 技术方向 / Technical Directions
+
+| Domain | 中文 | English |
+|---|---|---|
+| Real-time Data Fusion | 多源实时数据融合 | Multi-source real-time fusion |
+| Multi-dimensional Feature Engineering | 多维动态特征工程 | Multi-dimensional dynamic features |
+| Temporal Sequence Analysis | 时序行为分析 | Temporal behavior analysis |
+| Market Signal Processing | 市场信号处理 | Market signal processing |
+| Probabilistic Modeling | 概率建模 | Probabilistic modelling |
+| Risk-aware Filtering | 风险约束过滤 | Risk-aware filtering |
+| AI-assisted Decision Intelligence | AI 辅助决策智能 | AI-assisted decision intelligence |
 
 ---
 
@@ -82,29 +106,53 @@ GoalFlux is currently positioned as a **research and real-time observation platf
 
 ---
 
-## 系统架构 / Architecture
+## 系统架构 / System Architecture
 
 ```mermaid
 flowchart TD
-    A[Live Match Stream<br/>实时比赛流] --> B[Identity & State Sync<br/>身份与状态同步]
-    B --> C[Primary Asian Total Market<br/>主盘口]
-    C --> D[Freshness / Scope / Safety Validation<br/>新鲜度/范围/安全校验]
-    D --> E[Remaining Goals λ<br/>剩余进球强度]
-    E --> F[Poisson Remaining Goals Distribution<br/>泊松剩余进球分布]
-    F --> G[Asian Total Settlement Engine<br/>五态结算引擎]
-    G --> H[WIN]
-    G --> I[HALF WIN]
-    G --> J[PUSH]
-    G --> K[HALF LOSS]
-    G --> L[LOSS]
-    H --> M[WATCH_ONLY 人工观察]
-    I --> M
-    J --> M
-    K --> M
-    L --> M
+    A["<b>Data Source Layer</b><br/>数据源层<br/><i>Multi-source ingestion</i>"] --> B["<b>Real-time Processing Layer</b><br/>实时处理层<br/><i>Event normalization</i>"]
+    B --> C["<b>Feature Engineering Layer</b><br/>特征工程层<br/><i>Dynamic feature extraction</i>"]
+    C --> D["<b>Signal Analysis Layer</b><br/>信号分析层<br/><i>Probabilistic modelling & ranking</i>"]
+    D --> E["<b>Visualization Layer</b><br/>可视化层<br/><i>WATCH_ONLY observation</i>"]
+    A -.->|"live match state"| B
+    A -.->|"market snapshots"| B
+    B -.->|"normalized events"| C
+    C -.->|"λ · P3/P5/P7/P10 · P_HT/P_FT"| D
+    D -.->|"five-state settlement"| E
+    D -.->|"Top 5 / Top 10 ranking"| E
 ```
 
-公开版本统一使用 `Live Match Stream` / `Primary Asian Total Market` / `Market Provider` 等中性名称，不出现真实数据供应商。
+系统采用分层架构设计，从多源数据接入到可视化观察形成完整数据链：
+
+- **Data Source Layer**：多源实时数据接入（比赛状态、市场快照）
+- **Real-time Processing Layer**：事件归一化与状态同步
+- **Feature Engineering Layer**：多维动态特征提取（剩余进球 λ、概率窗口）
+- **Signal Analysis Layer**：概率建模、五态结算、Top 排名
+- **Visualization Layer**：WATCH_ONLY 人工观察界面与诊断面板
+
+> 公开版本统一使用 `Live Match Stream` / `Primary Asian Total Market` / `Market Provider` 等中性名称，不出现真实数据供应商。
+
+---
+
+## 核心模块 / Core Modules
+
+```mermaid
+flowchart LR
+    M1[Data Ingestion<br/>数据接入] --> M2[Event Normalization<br/>事件归一化]
+    M2 --> M3[Feature Extraction<br/>特征提取]
+    M3 --> M4[Signal Ranking<br/>信号排名]
+    M4 --> M5[Risk Filtering<br/>风险过滤]
+    M5 --> M6[Visualization<br/>可视化]
+```
+
+| Module | 职责 / Responsibility |
+|---|---|
+| **Data Ingestion** | 多源数据接入与原始事件采集（identity/state/market） |
+| **Event Normalization** | 跨源事件归一化、身份校验、比分与分钟同步 |
+| **Feature Extraction** | 剩余进球 λ、Poisson 分布、P3/P5/P7/P10、P_HT/P_FT 推导 |
+| **Signal Ranking** | 综合评分（rank_score）、Top 5 / Top 10 动态排名 |
+| **Risk Filtering** | Fail-Closed 安全链：新鲜度、范围、去重、概率完整性 |
+| **Visualization** | WATCH_ONLY 观察界面、Top 排名、诊断面板 |
 
 ---
 
@@ -183,7 +231,7 @@ WATCH_ONLY 是系统的核心观察视图，用于：
 
 WATCH_ONLY is the primary observation view: it auto-selects matches that pass all safety gates, displays the Asian Total line and odds, remaining-goals λ, five-state settlement probabilities, P_POSITIVE and short-window probabilities, and a dynamic Top 5 / Top 10 ranking. Matches are auto-settled upon completion. The page persistently shows `WATCH_ONLY` and `NO PROVEN EDGE`.
 
-![WATCH_ONLY 首页](./assets/screenshots/watch-overview.png)
+![WATCH_ONLY 实时观察](./assets/screenshots/watch-overview.png)
 
 ---
 
@@ -217,7 +265,7 @@ rank_score = P_POSITIVE × 50 + P_WIN × 30 + lambda_gap × 20
 
 > Ranking indicates relative probability priority inside the observation pool, **not a betting recommendation**.
 
-![Top 排名](./assets/screenshots/watch-top-ranking.png)
+![Top 排序逻辑](./assets/screenshots/watch-top-ranking.png)
 
 ---
 
@@ -281,14 +329,14 @@ Any failed safety layer blocks the fixture from entering WATCH_ONLY. The system 
 
 | 视图 | 说明 |
 |---|---|
-| ![WATCH 首页](./assets/screenshots/watch-overview.png) | WATCH_ONLY 首页：统计、Top 排名、全量记录表 |
-| ![Top 排名](./assets/screenshots/watch-top-ranking.png) | Top 5 / Top 10 动态排名（金/蓝高亮） |
-| ![WATCH 详情](./assets/screenshots/watch-detail.png) | 单场 WATCH 详情：盘口、λ、五态概率、结算 |
-| ![Live 总览](./assets/screenshots/live-overview.png) | 实时比赛总览与资格漏斗 |
-| ![结算](./assets/screenshots/settlement-view.png) | 结算记录视图 |
-| ![诊断](./assets/screenshots/diagnostics-view.png) | 资格诊断与阻断原因分布 |
+| ![WATCH 实时观察](./assets/screenshots/watch-overview.png) | **Real-time Monitoring**：WATCH_ONLY 实时观察首页，统计面板 + Top 排名 + 全量记录表 |
+| ![Top 排序逻辑](./assets/screenshots/watch-top-ranking.png) | **Top Ranking Logic**：Top 5 / Top 10 动态排名（金/蓝高亮），综合评分排序 |
+| ![WATCH 详情](./assets/screenshots/watch-detail.png) | **Match Detail**：单场观察详情，盘口、λ、五态概率、短期概率窗口 |
+| ![Live 总览](./assets/screenshots/live-overview.png) | **Live Overview**：实时比赛总览与资格漏斗 |
+| ![系统诊断](./assets/screenshots/diagnostics-view.png) | **System Diagnostics**：资格诊断与阻断原因分布，运行时漏斗分析 |
 
 > 所有截图已脱敏：不含真实数据供应商名称、接口 URL、本机路径、认证凭据或原始 Debug Payload。
+> 公开版本定位为 Research / Intelligence Framework，不展示结算输赢统计、命中率、盈亏或胜负结果。
 
 ---
 
@@ -299,6 +347,7 @@ Any failed safety layer blocks the fixture from entering WATCH_ONLY. The system 
 - **Fail-Closed**：数据质量存疑即阻断，不冒险输出
 - **概率透明**：每个概率字段都有明确语义，不混淆 P_POSITIVE 与 P_HT/P_FT
 - **不夸大**：不宣称已证明优势，不包装未验证差异
+- **Research-oriented**：公开版本聚焦实时监控、排序逻辑、数据诊断与系统架构，不展示结算结果与盈亏统计
 
 ---
 
@@ -306,12 +355,14 @@ Any failed safety layer blocks the fixture from entering WATCH_ONLY. The system 
 
 | 模块 | 状态 |
 |---|---|
+| Real-time Data Fusion | ACTIVE |
+| Feature Engineering | ACTIVE |
 | Probability Engine | ACTIVE |
 | Settlement Engine | ACTIVE |
 | FT WATCH_ONLY | ACTIVE |
 | HT WATCH_ONLY | ACTIVE |
-| Automatic Settlement | ACTIVE |
 | Top Ranking | ACTIVE |
+| System Diagnostics | ACTIVE |
 | Official Production Alert | **DISABLED** |
 | Proven Market Edge | **NOT CLAIMED** |
 
@@ -332,11 +383,23 @@ Any failed safety layer blocks the fixture from entering WATCH_ONLY. The system 
 
 ## 作者 / Author
 
+**AUTHOR**
+
 **随心笔记**
 
-GoalFlux 是由「随心笔记」持续设计与迭代的独立软件工程项目，重点研究实时足球概率建模、亚洲大小球结算、运行时数据质量与人工观察分析。
+Independent AI / Data System Research
 
-详见 [AUTHOR.md](./AUTHOR.md)。
+**Focus:**
+
+- Real-time sports intelligence
+- Data engineering
+- Machine learning applications
+
+GoalFlux 是由「随心笔记」持续设计与迭代的独立软件工程项目，重点研究实时足球概率建模、亚洲大小球结算、运行时数据质量与人工观察分析。系统参考现代智能数据系统中的实时流处理、特征工程和概率分析方法，构建面向复杂动态环境的数据驱动研究框架。
+
+GoalFlux is an independent software engineering and quantitative analysis project designed and iterated by **随心笔记**, focused on real-time football probability modelling, Asian Total settlement, runtime data quality, and observation-oriented analytics. The system references real-time stream processing, feature engineering, and probabilistic modelling methods from modern intelligent data systems, building a data-driven research framework for complex dynamic environments.
+
+详见 / See: [AUTHOR.md](./AUTHOR.md)
 
 ---
 
@@ -344,7 +407,7 @@ GoalFlux 是由「随心笔记」持续设计与迭代的独立软件工程项�
 
 GoalFlux 仅用于软件工程、概率建模、数据分析与研究展示。项目不保证预测准确率、财务回报或市场优势。WATCH_ONLY 输出为分析观察，不构成财务或投注建议。
 
-详见 [DISCLAIMER.md](./DISCLAIMER.md)。
+详见 [DISCLAIMER.md](./DISCLAIMER.md).
 
 ---
 
@@ -352,10 +415,10 @@ GoalFlux 仅用于软件工程、概率建模、数据分析与研究展示。�
 
 本公开仓库为展示用途。**Production integration source code is not included.** 生产集成源代码不包含在内。
 
-详见 [LICENSE](./LICENSE)。
+详见 [LICENSE](./LICENSE).
 
 ---
 
 <p align="center">
-  <sub>Created by 随心笔记 · GoalFlux · Research &amp; Watch-Only</sub>
+  <sub>Created by 随心笔记 · GoalFlux · Live Football Intelligence Engine · Research &amp; Watch-Only</sub>
 </p>
