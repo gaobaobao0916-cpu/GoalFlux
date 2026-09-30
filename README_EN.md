@@ -128,7 +128,7 @@ flowchart TD
 ### System Diagnostics
 
 <p align="center">
-  <img src="./assets/screenshots/04-system-diagnostics.png" width="92%" alt="System Diagnostics">
+  <img src="./assets/screenshots/04b-diagnostics-hero.png" width="92%" alt="System Diagnostics">
 </p>
 
 <p align="center">
