@@ -1,22 +1,27 @@
-# GoalFlux — Live Football Intelligence Engine
+# GoalFlux — Live Football Intelligence Terminal
 
 <p align="center">
-  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux — Live Football Intelligence Engine">
+  <img src="./assets/cover/goalflux-cover.png" width="100%" alt="GoalFlux — Live Football Intelligence Terminal">
 </p>
 
 > English-only readme. For the bilingual version see [README.md](./README.md).
 
-GoalFlux is a **multi-source data fusion and intelligent analysis framework** for real-time football scenarios.
+**Real-time Event Fusion** · **Temporal State Modeling** · **Probabilistic Intelligence Engine** · **Explainable Observation Framework**
 
-It combines live match state, market snapshots, remaining-goals distributions, and five-state Asian Total settlement probabilities into a unified FT/HT WATCH_ONLY workflow.
+GoalFlux is a **multi-source data fusion and intelligent analysis research framework** for real-time football scenarios.
 
-GoalFlux adopts modern real-time intelligent system design principles, combining multi-source data fusion, dynamic feature engineering, temporal analysis, and probabilistic modelling methods to build a data-driven research framework for complex dynamic environments.
+It combines live match state, market snapshots, remaining-goals distributions, and five-state settlement models into a unified data chain, providing a WATCH_ONLY observation terminal for FT and HT scopes.
 
-GoalFlux is currently positioned as a **Research / Intelligence Framework**. Unproven predictive differences are not presented as validated market edge, and official automated signals remain disabled.
+GoalFlux is a real-time intelligence framework built around multi-source event fusion, temporal state modeling, probabilistic analysis, and explainable observation workflows.
+
+**Architecture pipeline**: Data Source Layer → Event Processing Layer → Feature Representation Layer → Probability Engine → Observation Terminal.
+
+GoalFlux is currently positioned as a **Research / Intelligence Framework**. Unproven probabilistic differences are not presented as validated market edge, and official automated signals remain disabled.
 
 - Author: **随心笔记** — Independent AI / Data System Research
 - Focus: Real-time sports intelligence · Data engineering · Machine learning applications
 - Status: Research / Intelligence Framework
+- Runtime guide: [docs/RUNNING_GUIDE.md](./docs/RUNNING_GUIDE.md)
 - License: All Rights Reserved (production source not included)
 
-See [README.md](./README.md) for the full bilingual documentation with architecture diagrams, core modules, screenshots, and technical details.
+See [README.md](./README.md) for the full bilingual documentation with architecture pipeline, technical foundation, screenshots, and safety design.
