@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  Real-time Data Fusion&nbsp;+&nbsp;AI-driven Match Observation Framework<br/>
-  实时数据融合 · AI 驱动比赛观察框架
+  <b>Real-time Data Fusion</b> · <b>Temporal Analysis</b> · <b>Probability Modeling</b> · <b>Risk-aware Observation</b><br/>
+  实时数据融合 · 时序分析 · 概率建模 · 风险约束观察
 </p>
 
 <p align="center">
@@ -27,6 +27,14 @@
   <img alt="Edge" src="https://img.shields.io/badge/Proven%20Edge-Not%20Claimed-red">
 </p>
 
+### Dashboard Preview
+
+<p align="center">
+  <img src="./assets/screenshots/watch-overview.png" width="90%" alt="GoalFlux Intelligence Terminal — Dashboard Preview">
+</p>
+
+<p align="center"><sub>GoalFlux Intelligence Terminal · Real-time Watch Dashboard · PUBLIC DEMO MODE</sub></p>
+
 ---
 
 ## 目录 / Table of Contents
@@ -35,6 +43,7 @@
 - [核心能力 / Key Capabilities](#核心能力--key-capabilities)
 - [系统架构 / System Architecture](#系统架构--system-architecture)
 - [核心模块 / Core Modules](#核心模块--core-modules)
+- [技术基础 / Technical Foundation](#技术基础--technical-foundation)
 - [剩余进球引擎 / Remaining Goals Engine](#剩余进球引擎--remaining-goals-engine)
 - [Asian Total 五态结算 / Settlement](#asian-total-五态结算--settlement)
 - [概率语义 / Probability Semantics](#概率语义--probability-semantics)
@@ -60,7 +69,7 @@ GoalFlux 是一个面向实时足球场景的**多源数据融合与智能分析
 
 系统将实时比赛状态、亚洲大小球市场、剩余进球分布与五态结算模型组织为统一数据链，为 FT（全场）/ HT（半场）场景提供 WATCH_ONLY 人工观察界面。
 
-GoalFlux 参考现代智能数据系统中的实时流处理、特征工程和概率分析方法，采用类似先进实时分析平台的系统设计理念，构建面向复杂动态环境的数据驱动研究框架。
+GoalFlux 采用现代实时智能系统设计理念，结合多源数据融合、动态特征工程、时序分析和概率建模方法，构建面向复杂动态环境的数据驱动研究框架。
 
 > GoalFlux 当前定位为 **Research / Intelligence Framework**。
 > 系统不会将未经验证的概率差异包装成"已证明优势"，正式自动化信号保持关闭。
@@ -153,6 +162,24 @@ flowchart LR
 | **Signal Ranking** | 综合评分（rank_score）、Top 5 / Top 10 动态排名 |
 | **Risk Filtering** | Fail-Closed 安全链：新鲜度、范围、去重、概率完整性 |
 | **Visualization** | WATCH_ONLY 观察界面、Top 排名、诊断面板 |
+
+---
+
+## 技术基础 / Technical Foundation
+
+GoalFlux 的技术基础覆盖从数据接入到人工观察的完整链路，每一层独立可观测、可验证。
+
+| Stage | 中文 | Responsibility |
+|---|---|---|
+| Real-time Data Ingestion | 实时数据接入 | 多源事件流接入与原始事件采集（identity / state / market） |
+| Event Normalization | 事件归一化 | 跨源事件归一化、身份校验、比分与分钟同步 |
+| Feature Representation | 特征表示 | 剩余进球 λ、Poisson 分布、P3/P5/P7/P10、P_HT/P_FT 推导 |
+| Temporal Sequence Analysis | 时序分析 | 比赛状态时间序列建模、进球强度动态追踪 |
+| Probability Estimation | 概率估计 | 五态结算概率、短期进球概率、综合评分 |
+| Risk-aware Filtering | 风险约束过滤 | Fail-Closed 安全链：新鲜度、范围、去重、概率完整性 |
+| Human-in-the-loop Observation | 人工观察 | WATCH_ONLY 界面、Top 排名、诊断面板、人工判定 |
+
+> 技术基础各层只消费上游已有数据，不引入预测保证。概率估计层输出的是分布与可能性，不是投注建议。
 
 ---
 

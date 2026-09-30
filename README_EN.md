@@ -10,7 +10,7 @@ GoalFlux is a **multi-source data fusion and intelligent analysis framework** fo
 
 It combines live match state, market snapshots, remaining-goals distributions, and five-state Asian Total settlement probabilities into a unified FT/HT WATCH_ONLY workflow.
 
-GoalFlux references real-time stream processing, feature engineering, and probabilistic modelling methods from modern intelligent data systems, adopting design principles similar to advanced real-time analytics platforms, providing a data-driven research framework for complex dynamic environments.
+GoalFlux adopts modern real-time intelligent system design principles, combining multi-source data fusion, dynamic feature engineering, temporal analysis, and probabilistic modelling methods to build a data-driven research framework for complex dynamic environments.
 
 GoalFlux is currently positioned as a **Research / Intelligence Framework**. Unproven predictive differences are not presented as validated market edge, and official automated signals remain disabled.
 
