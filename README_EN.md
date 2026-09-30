@@ -33,7 +33,7 @@
 ## Dashboard Preview
 
 <p align="center">
-  <img src="./assets/screenshots/01-dashboard.png" width="92%" alt="GoalFlux Intelligence Terminal — Dashboard">
+  <img src="./assets/screenshots/00-dashboard-hero.png" width="92%" alt="GoalFlux Intelligence Terminal — Dashboard">
 </p>
 
 <p align="center"><sub>GoalFlux Intelligence Terminal · Real-time observation dashboard · PUBLIC DEMO MODE</sub></p>
