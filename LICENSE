@@ -1,0 +1,22 @@
+All Rights Reserved.
+
+Copyright (c) 2026 随心笔记
+
+This repository is a public showcase of the GoalFlux project.
+
+Permission is granted to view and read the documentation, diagrams, and
+synthetic demo data contained herein for informational and research purposes.
+
+No part of this repository — including but not limited to the documentation,
+design, architecture descriptions, probability model concepts, settlement
+logic, screenshots, and demo data — may be reproduced, distributed, modified,
+merged, published, sublicensed, sold, or used for commercial purposes without
+the explicit prior written permission of the copyright holder.
+
+Production integration source code, real data feeds, provider integrations,
+scraping implementations, private configurations, and credentials are NOT
+included in this repository and remain the exclusive property of the author.
+
+THE DOCUMENTATION AND DEMO DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND. THE AUTHOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS REPOSITORY.

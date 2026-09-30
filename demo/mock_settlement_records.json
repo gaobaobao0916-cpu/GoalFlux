@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "label": "Synthetic Demo Data",
+    "note": "All records below are synthetic settlement examples for demonstration only. They do not come from any real match or data feed."
+  },
+  "records": [
+    {
+      "fixture": "Demo FC vs Sample United",
+      "scope": "FT",
+      "line": 2.75,
+      "side": "OVER",
+      "final_score": "3-1",
+      "total_goals": 4,
+      "result": "WIN",
+      "p_positive_at_watch": 0.59,
+      "settled_at": "2026-09-29T15:00:00+00:00"
+    },
+    {
+      "fixture": "Test City vs Example Rovers",
+      "scope": "FT",
+      "line": 2.25,
+      "side": "OVER",
+      "final_score": "2-0",
+      "total_goals": 2,
+      "result": "HALF_LOSS",
+      "p_positive_at_watch": 0.74,
+      "settled_at": "2026-09-29T14:50:00+00:00"
+    },
+    {
+      "fixture": "Synthetic Athletic vs Mock Town",
+      "scope": "HT",
+      "line": 1.25,
+      "side": "OVER",
+      "final_score_ht": "1-0",
+      "ht_goals": 1,
+      "result": "LOSS",
+      "p_positive_at_watch": 0.54,
+      "settled_at": "2026-09-29T14:10:00+00:00"
+    }
+  ]
+}
